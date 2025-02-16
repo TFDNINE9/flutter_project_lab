@@ -94,6 +94,7 @@ class _ProductPageState extends State<ProductPage> {
               decoration: InputDecoration(
                 hintText: 'Search products...',
                 prefixIcon: const Icon(Icons.search),
+                suffixIcon: const Icon(Icons.delete_sweep_outlined),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
